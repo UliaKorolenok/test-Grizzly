@@ -1,0 +1,20 @@
+#cookiePopup {
+    display: none;
+    position: fixed;
+    font-size: 1.1rem;
+    text-align: justify;
+    bottom: 1rem;
+    right: 1rem;
+    width: 25%;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+}
+@media screen and (max-width: 991px) {
+    #cookiePopup {
+        width: 80%;
+    }
+}
