@@ -13,8 +13,117 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     z-index: 9999;
 }
+
 @media screen and (max-width: 991px) {
     #cookiePopup {
         width: 80%;
+    }
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    src: url('nunito-v26-latin-regular.woff2') format('woff2');
+}
+
+.advantages {
+    font-family: 'Nunito';
+}
+
+.advantagesMob {
+    display: none;
+}
+
+h2 {
+    font-family: 'Nunito';
+    font-size: 40px;
+    font-weight: 600;
+    margin: 4% 0;
+}
+
+.advantages .col-3 {
+    width: 23%;
+    margin: 1%;
+}
+
+.advantages .card {
+    border: none;
+    background-color: #F9F9F9;
+    padding: 2% 2% 4% 2%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.advantages .card h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.advantages .card svg {
+    margin-bottom: 10%;
+}
+
+.advantages .card .description {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 991px) {
+    .advantages {
+        display: none;
+    }
+
+    .advantagesMob {
+        display: block;
+        font-family: 'Nunito';
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .advantagesMob .card {
+        border: none;
+        background-color: #F9F9F9;
+        padding: 14% 8%;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .advantagesMob .card h5 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .advantagesMob .card svg {
+        margin-bottom: 7%;
+    }
+    .advantagesMob .card img {
+       width: 40px;
+       margin-bottom: 7%;
+    }
+    .advantagesMob .card .description {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        padding: 1% 0.5%;
+        width: 2%;
+        border-radius: 50%;
+    }
+
+    .carousel-indicators button {
+        width: 20%;
+        background-color: rgba(224, 224, 224, 1) !important;
+    }
+
+    .carousel-indicators .active {
+        background-color: rgba(120, 89, 156, 1) !important;
+    }
+    .carousel-indicators {
+        margin-bottom: -2rem;
     }
 }
